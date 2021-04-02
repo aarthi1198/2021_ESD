@@ -50,9 +50,9 @@ class LogicGates{
 	   int result_and_3Input = result_and_2Input + lg.IC7408(inp2,inp3);
 	   int result_not = lg.IC7404(inp3);
 	   System.out.println("Result of 2 input  OR gate : " + result_or_2Input);
-       System.out.println("Result of 3 input  OR gate : " + result_or_3Input);
+           System.out.println("Result of 3 input  OR gate : " + result_or_3Input);
 	   System.out.println("Result of 2 input  AND gate : " + result_and_2Input);
-       System.out.println("Result of 3 input  AND gate : " + result_and_3Input);
+           System.out.println("Result of 3 input  AND gate : " + result_and_3Input);
 	   System.out.println("Result of NOT gate : " + result_not);
     }
 }
